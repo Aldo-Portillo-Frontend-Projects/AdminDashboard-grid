@@ -78,6 +78,18 @@ body{
     background-color: #f0f9ff;
     border-left: solid 5px #fbbf24;
     border-radius: 5px;
+    /*display: grid;
+    grid-template-rows: 2fr 1fr;*/
+}
+.card-icons{
+    display: flex;
+    justify-content: end;
+    padding: 12px;
+    gap: 20px;
+}
+.card-icons > img{
+    width: 25px;
+    height: 25px;
 }
 .announcements-trending-grid{
     grid-column: 3/4;
