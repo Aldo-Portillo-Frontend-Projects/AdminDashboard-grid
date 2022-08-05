@@ -26,7 +26,79 @@ body{
 .header{
     border: 1px solid red;
     grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
+
+.search{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.search > input {
+    width: 80%;
+    border-radius: 25px;
+    height: 20px;
+    border: 1px solid white;
+    background-color: var(--grey);
+    outline: none;
+    padding: 5px;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile > .bell{
+    height: 30px;
+    width: 30px;
+}
+
+.profile > .profile-img{
+    border-radius: 250px;
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.greet{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.greet > img {
+    border-radius: 250px;
+    max-height: 80px;
+    max-width: 80px;
+}
+
+.greet > div {
+    display: grid;
+    grid-template-rows: 30px 30px;
+    align-items: center;
+}
+
+
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.actions > div{
+    background-color: var(--blue);
+    border-radius: 25px;
+    width: 100px;
+    height: 40px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .sidebar{
     border: 1px solid blue;
